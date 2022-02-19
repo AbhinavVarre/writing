@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{berners:1989}
+Tim Berners-Lee.
+\newblock {\em Information Management: A Proposal}, chapter~2.
+\newblock 1989.
+
+\bibitem{lampson:1983}
+Butler~W. Lampson.
+\newblock Hints for computer system design.
+\newblock {\em SIGOPS Operating Systems Review}, 17(5):33–48, October 1983.
+
+\bibitem{ackoff:1994}
+{Russell L. Ackoff}.
+\newblock Systems thinking and thinking systems.
+\newblock {\em {System Dynamics Review}}, 10(2--3):175--188, {Summer--Fall}
+  1994.
+
+\end{thebibliography}

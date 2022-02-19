@@ -3,9 +3,9 @@
 \usepackage{fullpage,times,hyperref,graphicx}
 
 % The next line is the title of your paper. Update it.
-\title{The Title of Your Paper} 
+\title{The Definition of a System: Computational or Otherwise} 
 % The next line is the author information for your paper. Update it.
-\author{Your full name and UT EID}
+\author{Abhinav Varre}
 % The next line is the timestamp for your paper. DO NOT CHANGE IT.
 \date{\today}
 
@@ -16,107 +16,17 @@
 \maketitle
 
 \section{Introduction}
-This is a \LaTeX\ template file for you to use in your writing assignments in C S 429.
-The text in this file shows you how to use several of the features of \LaTeX.
-It may help you to think of \LaTeX\ as a powerful markup language for documents, 
-similar to HTML or XML.
+The definition of a system has been in contention as the English Language grows and evolves - domains ranging from biology and mathematics to computation and engineering display fundamentally different understandings and interpretations of what one would consider the “definition”  of a system. Therefore, before one goes about attempting to synthesize and develop a definition for a system, it is important to elucidate the context in which the definition is being applied. 
+To begin, this essay will attempt to address the definition of systems from a computational perspective and then narrow this definition down so that it aligns with a definition for a “computational system.” The literature on this topic is diverse and varies from domain to domain, but this essay will take three separate sources into consideration in order to supplement the argument for the definition.
 
-\emph{Every assignment in C S 429 is an individual assignment.}
-Before you begin, 
-please take the time to review the course policy on academic integrity at:
-\url{https://www.cs.utexas.edu/academics/conduct}.
+\section{Abstract System}
+What is a system? In the most general, abstract sense, what constitutes what one may consider a system such that the semantic definition can be applied across a number of domains? Russel Ackoff, in his paper “Systems Thinking and Systems”~\cite{ackoff:1994} lists four attributes of a system that form a holistic definition: The first is that a “system is a whole containing two or more parts.”~\cite{ackoff:1994} The second states that each of these aforementioned parts “can affect the performance or properties of the whole.”~\cite{ackoff:1994} The third attribute states “no subgroup of [the parts] can have an independent effect on the whole. ”~\cite{ackoff:1994} Ackoff concludes his definition by stating that a system “cannot be divided into independent parts or subgroups of parts.”~\cite{ackoff:1994} Additionally, the word “part” as Ackoff uses it is functionally defined as an independent component of the overall system for the purposes of this paper. In any case, the fundamental definition of the word “system” in this essay places a heavy emphasis on the idea of a “whole” being comprised of a number of individual parts. However,  this definition is incomplete in the sense that it implies that the meaning of the system is derived from the aggregate functions of its parts - or in more colloquial terms, the sum of its parts. A more complete description would have to encapsulate a very important property of a system - a system is formed by the interaction of its individual components, rather than just a sum of these components. In other words, if one were to lay out all the components of a system in a discrete manner, the system ceases to exist. The individual components must interact with one another in order to satisfy the definition. Ackoff describes this when explaining that “a system is whole that cannot be divided into independent parts. ” However, it is important to note that the interaction between the parts is what constitutes a system, rather than all of the components being part of the same organizational structure.
 
-\section{Details of the assignment}
-The word \emph{system} is among the most overloaded in the English language.
-Oxford lists \href{https://www.oxfordlearnersdictionaries.com/us/definition/american_english/system}{four senses} of the word in American English 
-and \href{https://www.oxfordlearnersdictionaries.com/us/definition/english/system}{five} in British English;
-Merriam-Webster \href{https://www.merriam-webster.com/dictionary/system}{lists} five major definitions,
-with multiple finer shades of meaning within them;
-Chambers \href{https://chambers.co.uk/search/?query=system&title=21st}{lists} nine;
-and Collins \href{https://www.collinsdictionary.com/dictionary/english/system}{lists} even more.
-This multiplicity of connotations begs the question of exactly what constitutes a system in the field of computer science.
+\section{Computational Systems}
+At this point, the abstract definition of the word system that has been developed is a collection of components or parts that interact with one another. The next section of this essay focuses on narrowing this definition in order to better represent the domain of computation. The handbook “Hints for Computer Systems Design”~\cite{lampson:1983} by Butler W. Lampson expands upon the idea of how a computational system is comprised of “interfaces,” which can be considered systems themselves based on the definition outlined earlier. In the paper, Lampston describes one of the integral attributes of a computer system -  the function that the system provides~\cite{lampson:1983}. Lampson provides a number of axioms to adhere to when designing a computer system, but one of the most important ones is to decide on a solid purview of the functionality that a computer system should offer.~\cite{lampson:1983} This will serve as one of the distinguishing factors from the general definition of a system to one aligned towards computational systems. A computational system is designed to and performs in order to provide a certain functionality or range of functionality. This definition would not apply to the abstract definition of a system - the domain of biology provides a prime example. An ecosystem is not designed to provide a certain function. It is simply a distinction that is drawn for purposes of classification. Therefore, a computational system is a system that was designed and is used to implement some sort of predetermined functionality.
 
-You are to write an essay of no more than 1000 content words~\footnote{That is, excluding title, references, and the like.}
- that accomplishes the following tasks:
-\begin{itemize}
-\item surveys a selection of definitions of the term;
-\item synthesizes your own definition for it that is relevant to the kinds of systems we study in C S 429 and C S 439; and
-\item creates a rubric for fully describing a system.
-\end{itemize}
-Of course,
-you need to convince your reader
-(me)
-of the soundness of your arguments all through the essay.
-
-To get you started,
-I have provided an annotated list of readings drawn from sources spanning multiple disciplines.
-PDF versions of the materials,
-where applicable,
-have been uploaded to Canvas.
-\begin{itemize}
-\item 
-Ackoff's paper~\cite{ackoff:1994} provides a good framework for systems.
-Chapter~2 from Boardman and Sauser's book~\cite{boardman:sauser:2008} defines systems from a fairly broad perspective.
-The authors come from an engineering and management background.
-\item
-The ``Swiss cheese'' paper by Reason~\cite{reason:2000} is a classic in the systems community.
-Written by a psychologist,
-it was referenced often last year in the early days of the pandemic.
-A recent episode of The Ezra Klein Show podcast featuring Zeynep Tufecki~\cite{klein:2021} also focuses on systems thinking 
-in the context of sociology and medicine.
-\item
-The biologist {v}on Bertalanffy was a major driving force behind what we today call systems biology.
-His 1950 paper~\cite{vonBertalanffy:1950} is focused on the notion of systems in the natural sciences.
-\item
-Coming to computer science,
-Parnas's paper on mission-critical systems software~\cite{parnas:1985} contains,
-among other things,
-a taxonomy of systems.
-Simon's paper on the architecture of complexity~\cite{simon:1962} is an outstanding paper by a pioneer and a giant in our field, 
-who won both the A. M. Turing Award (1975) and the Nobel Memorial Prize in Economic Sciences (1978).
-But probably the two most famous papers on system design are the ones written ten years apart by Butler Lampson.
-The first paper~\cite{lampson:1983},
-from 1983,
-distills Lampson's experiences from designing and implementing a large array of computer systems.
-The second paper~\cite{lampson:1992},
-his Turing Award lecture,
-is a rumination on how ``depressingly little'' has been learned in the decade since his earlier paper.
-\end{itemize}
-
-\emph{You are required to meaningfully incorporate at least three of these readings in your paper.}
-You are free to use additional materials if you so choose.
-
-I may update this list with additional readings.
-Such updates will be announced on Piazza.
-
-Needless to say,
-the paper is expected to be in grammatical English and in an appropriate academic style.
-Come talk to me if you are unsure of what this entails.
-If you need help with the mechanics of writing,
-your best resource is \href{http://uwc.utexas.edu/}{The University Writing Center}.
-They have a wide variety of facilities,
-including one-on-one consultations with over 100 consultants,
-to help you.
-
-You must use \LaTeX\ to format your paper.
-I will provide the necessary document templates and a makefile to simplify the workflow.
-The UTCS lab machines all have the \LaTeX\ software tools installed on them.
-
-\section{Handin}
-You will provide a link to the PDF document generated by \LaTeX: 
-once at the time of the checkpoint,
-and then again at the time of final submission.
-Generate the PDF document by following the instructions in the Makefile that accompanies this template.
-
-The first checkpoint should be a first draft.
-I will read your draft and provide you feedback on it,
-with the expectation that you will incorporate the feedback into your final version.
-
-\section{Evaluation}
-The journal is worth 10\% of the total course grade.
-The first checkpoint counts for three points,
-and the final version of the paper counts for seven points.
-Detailed grading rubrics will be provided on Canvas.
+\section{Computational Systems - Components}
+At this point, the definition of a computer system has been extended to include the role functionality plays. However, there is one more important distinction necessary to supplement and complete the definition of a computational system. A relevant example to illustrate this is the paper “Information Management: A Proposal”~\cite{berners:1989}by Tim Berners-Lee.  Berners-Lee includes a diagram of a number of components that make up a system that he was writing about - the World Wide Web.~\cite{berners:1989} This diagram highlights a key aspect of computational systems - the explicit designation of every component in the system. This is another specialized attribute of a computational system. Every component is designed to function and interact in a manner consistent with executing the function of the system, and nothing more. What this means is that there are no extraneous components, in the sense that the component exists because it provides an integral function to the overall system. Each component is also carefully chosen to adhere to other constraints, such as efficiency and size. The third attribute that will be added to the working definition is that all of the components of a computational system must be necessary to the functioning of the system, or its optimization. There can be no extraneous components in order for a system to be computational. 
 
 % The following line says where to find your bibliography database.
 \bibliography{term-paper-template}
