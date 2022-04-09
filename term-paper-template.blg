@@ -3,46 +3,51 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: term-paper-template.aux
 The style file: plain.bst
 Database file #1: term-paper-template.bib
-Warning--empty publisher in berners:1989
+Illegal end of database file---line 142 of file term-paper-template.bib
+ : }
+ :  
+I'm skipping whatever remains of this entry
+Warning--empty journal in ahmady:2016
+Warning--empty year in ahmady:2016
 You've used 3 entries,
             2118 wiz_defined-function locations,
-            519 strings with 4358 characters,
-and the built_in function-call counts, 844 in all, are:
-= -- 79
+            518 strings with 4387 characters,
+and the built_in function-call counts, 789 in all, are:
+= -- 76
 > -- 21
-< -- 1
+< -- 0
 + -- 9
 - -- 6
-* -- 62
-:= -- 145
-add.period$ -- 9
+* -- 58
+:= -- 140
+add.period$ -- 8
 call.type$ -- 3
-change.case$ -- 11
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 36
-empty$ -- 81
+cite$ -- 5
+duplicate$ -- 32
+empty$ -- 70
 format.name$ -- 6
-if$ -- 172
+if$ -- 157
 int.to.chr$ -- 0
 int.to.str$ -- 3
-missing$ -- 4
-newline$ -- 18
+missing$ -- 3
+newline$ -- 17
 num.names$ -- 6
-pop$ -- 14
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 9
 quote$ -- 0
 skip$ -- 20
 stack$ -- 0
-substring$ -- 61
-swap$ -- 4
-text.length$ -- 1
+substring$ -- 55
+swap$ -- 2
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
-warning$ -- 1
+type$ -- 12
+warning$ -- 2
 while$ -- 9
 width$ -- 4
-write$ -- 34
-(There was 1 warning)
+write$ -- 31
+(There was 1 error message)
