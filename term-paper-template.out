@@ -1,6 +1,17 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.2}{Abstract System}{}% 2
-\BOOKMARK [1][-]{section.3}{Computational Systems}{}% 3
-\BOOKMARK [1][-]{section.4}{Computational Systems - Components}{}% 4
-\BOOKMARK [1][-]{section.5}{Computational Systems - Computation}{}% 5
-\BOOKMARK [1][-]{section.6}{Rubric Design}{}% 6
+\BOOKMARK [1][-]{section.2}{General System}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Interaction between Components}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Computational Systems}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Predetermined Functionality}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Computational Systems - Components}{}% 6
+\BOOKMARK [2][-]{subsection.4.1}{The Designation of Components}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Extraneous Components}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{Computational Systems - Computation}{}% 9
+\BOOKMARK [1][-]{section.6}{Rubric Design}{}% 10
+\BOOKMARK [2][-]{subsection.6.1}{Requirements for a General System}{section.6}% 11
+\BOOKMARK [2][-]{subsection.6.2}{Approaching a Computational System}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.3}{Adding Computation}{section.6}% 13
+\BOOKMARK [1][-]{section.7}{Application of the Rubric}{}% 14
+\BOOKMARK [2][-]{subsection.7.1}{Internal Combustion Engine}{section.7}% 15
+\BOOKMARK [2][-]{subsection.7.2}{The Human Brain}{section.7}% 16
+\BOOKMARK [2][-]{subsection.7.3}{World wide web}{section.7}% 17
